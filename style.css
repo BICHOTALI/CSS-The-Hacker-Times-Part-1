@@ -3,18 +3,20 @@
 /* styles for body of html */
 body {
     font-family: Source Sans Pro;
-    padding: 2em 6em;
     margin: auto;
     background-color: #eee;
 }
 
 /*styles for container of main content*/
 .newspaper-container {
+    width: 900px;
+    margin:auto;
+    margin-top: 2em;
     border-radius: 20px;
     border: 2px solid #ddd;
     background-color: white;
-    padding: 20px;
     box-shadow: #ddd;
+    padding: 4em
 }
 
 /*header styles*/
@@ -28,6 +30,8 @@ h2, h4 {
 }
 h2 {
     margin-bottom: 5px;
+    margin-top: 3%;
+
 
 }
 h5 {
@@ -35,12 +39,16 @@ h5 {
     font-family: Abril Fatface;
     padding-bottom: 1em;
     margin-top: 0%;
+    margin-bottom: 1%;
 }
 
 /*nav bar styles*/
 nav {
+    position: sticky;
+    top: 0;
     border-top: 1px solid #eee;
     border-bottom: 1px solid #eee;
+    background-color: white;
 }
 li {
     display: inline;
@@ -60,6 +68,15 @@ a {
     width: 100%
 }
 
-section {
+.more-articles section{
     display: inline-block;
+    margin-left: 2.5%;
+    width: 45%;
+}
+.more-articles {
+    border-top: 2px solid #eee
+}
+
+section img {
+    width: 100%;
 }
