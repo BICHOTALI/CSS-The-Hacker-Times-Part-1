@@ -31,8 +31,6 @@ h2, h4 {
 h2 {
     margin-bottom: 5px;
     margin-top: 3%;
-
-
 }
 h5 {
     color: #dd3232;
@@ -68,6 +66,7 @@ a {
     width: 100%
 }
 
+/*style for more articles div*/
 .more-articles section{
     display: inline-block;
     margin-left: 2.5%;
@@ -76,7 +75,6 @@ a {
 .more-articles {
     border-top: 2px solid #eee
 }
-
 section img {
     width: 100%;
 }
